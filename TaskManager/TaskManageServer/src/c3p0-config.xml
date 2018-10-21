@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+  <default-config>   
+    <property name="user">modbus</property>
+    <property name="password">modbus123456</property>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/user_remind?useUnicode=true&amp;characterEncoding=UTF-8&amp;useServerPrepStmts=false&amp;rewriteBatchedStatements=true&amp;useCompression=true</property>
+ 
+    <property name="initialPoolSize">50</property>
+    <property name="maxIdleTime">60</property>
+    <property name="maxPoolSize">100</property>
+    <property name="minPoolSize">15</property>
+    
+    <property name="testConnectionOnCheckout">true</property>
+    <property name="idleConnectionTestPeriod">3600</property>
+    <property name="preferredTestQuery">SELECT 1</property> 
+    <property name="acquireRetryAttempts">30</property>
+    <property name="acquireRetryDelay">1000</property>
+  <!--   <parameter>
+    	<name>testConnectionOnCheckin</name>
+    	<value>true</value>
+   		<name>idleConnectionTestPeriod</name>
+    	<value>10</value>
+    </parameter> -->
+  </default-config>
+</c3p0-config>
