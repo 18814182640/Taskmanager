@@ -1,0 +1,986 @@
+2018-10-20 12:40:38,761  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 12:40:38,960  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 12:40:39,891  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 12:41:36,458  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 12:41:36,666  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 12:41:37,592  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 12:42:16,614  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 12:42:16,831  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 12:42:17,733  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 12:43:56,388  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 12:43:56,609  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 12:43:57,531  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 12:48:19,495  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 12:48:19,707  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 12:48:20,609  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 12:49:28,085  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 12:49:28,281  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 12:49:29,216  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 12:50:19,514  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 12:50:19,725  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 12:50:20,633  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 12:50:21,871  INFO [Thread-2] (ServerBoot.java:67) - 开始监听
+2018-10-20 12:50:34,338  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:50) - 处理器载入/127.0.0.1:52924
+2018-10-20 12:50:34,339  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:73) - 接入/127.0.0.1:52924
+2018-10-20 12:50:47,396  INFO [nioEventLoopGroup-3-1] (AbstractPoolBackedDataSource.java:462) - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgepkx9y13wh4pxvw875m|4c9b80, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgepkx9y13wh4pxvw875m|4c9b80, idleConnectionTestPeriod -> 3600, initialPoolSize -> 50, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/user_remind?useUnicode=true&characterEncoding=UTF-8&useServerPrepStmts=false&rewriteBatchedStatements=true&useCompression=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 15, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-10-20 13:02:07,084  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:102) - 日志信息:/127.0.0.1:52924---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:02:07,086 ERROR [nioEventLoopGroup-3-1] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:02:07,088  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:79) - 断开/127.0.0.1:52924
+2018-10-20 13:02:07,089  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:58) - 处理器移除/127.0.0.1:52924
+2018-10-20 13:02:17,539  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:50) - 处理器载入/127.0.0.1:53268
+2018-10-20 13:02:17,541  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:73) - 接入/127.0.0.1:53268
+2018-10-20 13:26:32,029  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:50) - 处理器载入/127.0.0.1:53813
+2018-10-20 13:26:32,030  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:73) - 接入/127.0.0.1:53813
+2018-10-20 13:29:04,728  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:50) - 处理器载入/127.0.0.1:53887
+2018-10-20 13:29:04,729  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:73) - 接入/127.0.0.1:53887
+2018-10-20 13:29:43,701  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:50) - 处理器载入/127.0.0.1:53921
+2018-10-20 13:29:43,702  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:73) - 接入/127.0.0.1:53921
+2018-10-20 13:30:21,061  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:50) - 处理器载入/127.0.0.1:53949
+2018-10-20 13:30:21,063  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:73) - 接入/127.0.0.1:53949
+2018-10-20 13:32:22,465  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54022
+2018-10-20 13:32:22,466  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:73) - 接入/127.0.0.1:54022
+2018-10-20 13:33:58,247  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54071
+2018-10-20 13:33:58,249  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:73) - 接入/127.0.0.1:54071
+2018-10-20 13:34:32,116  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54095
+2018-10-20 13:34:32,116  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:73) - 接入/127.0.0.1:54095
+2018-10-20 13:37:08,251  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54182
+2018-10-20 13:37:08,252  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:73) - 接入/127.0.0.1:54182
+2018-10-20 13:37:58,149  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54211
+2018-10-20 13:37:58,150  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:73) - 接入/127.0.0.1:54211
+2018-10-20 13:39:41,515  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54211---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:39:41,516 ERROR [nioEventLoopGroup-3-3] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:39:41,516  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:79) - 断开/127.0.0.1:54211
+2018-10-20 13:39:41,517  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54211
+2018-10-20 13:39:51,050  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:102) - 日志信息:/127.0.0.1:53887---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:39:51,060 ERROR [nioEventLoopGroup-3-4] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:39:51,060  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:79) - 断开/127.0.0.1:53887
+2018-10-20 13:39:51,060  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:58) - 处理器移除/127.0.0.1:53887
+2018-10-20 13:40:00,793  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54095---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:40:00,796 ERROR [nioEventLoopGroup-3-1] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:40:00,805  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:79) - 断开/127.0.0.1:54095
+2018-10-20 13:40:00,805  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54095
+2018-10-20 13:40:12,775  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:102) - 日志信息:/127.0.0.1:53921---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:40:12,776 ERROR [nioEventLoopGroup-3-5] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:40:12,776  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:79) - 断开/127.0.0.1:53921
+2018-10-20 13:40:12,776  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:58) - 处理器移除/127.0.0.1:53921
+2018-10-20 13:40:14,043  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:102) - 日志信息:/127.0.0.1:53813---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:40:14,045 ERROR [nioEventLoopGroup-3-3] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:40:14,046  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:79) - 断开/127.0.0.1:53813
+2018-10-20 13:40:14,046  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:58) - 处理器移除/127.0.0.1:53813
+2018-10-20 13:40:15,553  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:102) - 日志信息:/127.0.0.1:53268---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:40:15,555 ERROR [nioEventLoopGroup-3-2] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:40:15,555  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:79) - 断开/127.0.0.1:53268
+2018-10-20 13:40:15,555  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:58) - 处理器移除/127.0.0.1:53268
+2018-10-20 13:40:17,666  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54182---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:40:17,667 ERROR [nioEventLoopGroup-3-2] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:40:17,667  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:79) - 断开/127.0.0.1:54182
+2018-10-20 13:40:17,668  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54182
+2018-10-20 13:40:20,586  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54071---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:40:20,589 ERROR [nioEventLoopGroup-3-8] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:40:20,590  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:79) - 断开/127.0.0.1:54071
+2018-10-20 13:40:20,590  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54071
+2018-10-20 13:40:22,277  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:102) - 日志信息:/127.0.0.1:53949---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:40:22,280 ERROR [nioEventLoopGroup-3-6] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:40:22,281  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:79) - 断开/127.0.0.1:53949
+2018-10-20 13:40:22,281  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:58) - 处理器移除/127.0.0.1:53949
+2018-10-20 13:40:24,856  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54022---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:40:24,862 ERROR [nioEventLoopGroup-3-7] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:40:24,862  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:79) - 断开/127.0.0.1:54022
+2018-10-20 13:40:24,863  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54022
+2018-10-20 13:42:11,024  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54359
+2018-10-20 13:42:11,027  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:73) - 接入/127.0.0.1:54359
+2018-10-20 13:52:17,217  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54359---远程主机强迫关闭了一个现有的连接。
+2018-10-20 13:52:17,217 ERROR [nioEventLoopGroup-3-4] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 13:52:17,218  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:79) - 断开/127.0.0.1:54359
+2018-10-20 13:52:17,218  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54359
+2018-10-20 13:52:23,553  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54592
+2018-10-20 13:52:23,558  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:73) - 接入/127.0.0.1:54592
+2018-10-20 14:21:11,096  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55240
+2018-10-20 14:21:11,098  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:73) - 接入/127.0.0.1:55240
+2018-10-20 14:30:20,649  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55456
+2018-10-20 14:30:20,652  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:73) - 接入/127.0.0.1:55456
+2018-10-20 14:32:46,238  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:102) - 日志信息:/127.0.0.1:55456---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:32:46,239 ERROR [nioEventLoopGroup-3-7] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:32:46,239  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:79) - 断开/127.0.0.1:55456
+2018-10-20 14:32:46,240  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:58) - 处理器移除/127.0.0.1:55456
+2018-10-20 14:32:54,388  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54592---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:32:54,391 ERROR [nioEventLoopGroup-3-5] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:32:54,391  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:79) - 断开/127.0.0.1:54592
+2018-10-20 14:32:54,391  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54592
+2018-10-20 14:33:01,888  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:102) - 日志信息:/127.0.0.1:55240---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:33:01,891 ERROR [nioEventLoopGroup-3-6] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:33:01,891  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:79) - 断开/127.0.0.1:55240
+2018-10-20 14:33:01,892  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:58) - 处理器移除/127.0.0.1:55240
+2018-10-20 14:33:07,777  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55538
+2018-10-20 14:33:07,780  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:73) - 接入/127.0.0.1:55538
+2018-10-20 14:35:45,809  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55612
+2018-10-20 14:35:45,810  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:73) - 接入/127.0.0.1:55612
+2018-10-20 14:43:58,696  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:102) - 日志信息:/127.0.0.1:55612---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:43:58,697 ERROR [nioEventLoopGroup-3-1] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:43:58,697  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:79) - 断开/127.0.0.1:55612
+2018-10-20 14:43:58,697  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:58) - 处理器移除/127.0.0.1:55612
+2018-10-20 14:44:04,899  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55837
+2018-10-20 14:44:04,903  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:73) - 接入/127.0.0.1:55837
+2018-10-20 14:46:28,528  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55904
+2018-10-20 14:46:28,529  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:73) - 接入/127.0.0.1:55904
+2018-10-20 14:47:10,237  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55943
+2018-10-20 14:47:10,238  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:73) - 接入/127.0.0.1:55943
+2018-10-20 14:47:41,895  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55966
+2018-10-20 14:47:41,897  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:73) - 接入/127.0.0.1:55966
+2018-10-20 14:47:53,881  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:102) - 日志信息:/127.0.0.1:55966---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:47:53,882 ERROR [nioEventLoopGroup-3-5] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:47:53,882  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:79) - 断开/127.0.0.1:55966
+2018-10-20 14:47:53,882  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:58) - 处理器移除/127.0.0.1:55966
+2018-10-20 14:47:58,440  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:102) - 日志信息:/127.0.0.1:55538---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:47:58,443 ERROR [nioEventLoopGroup-3-8] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:47:58,443  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:79) - 断开/127.0.0.1:55538
+2018-10-20 14:47:58,443  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:58) - 处理器移除/127.0.0.1:55538
+2018-10-20 14:48:05,222  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:102) - 日志信息:/127.0.0.1:55837---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:48:05,231 ERROR [nioEventLoopGroup-3-2] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:48:05,231  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:79) - 断开/127.0.0.1:55837
+2018-10-20 14:48:05,232  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:58) - 处理器移除/127.0.0.1:55837
+2018-10-20 14:48:08,928  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:102) - 日志信息:/127.0.0.1:55943---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:48:08,936 ERROR [nioEventLoopGroup-3-4] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:48:08,937  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:79) - 断开/127.0.0.1:55943
+2018-10-20 14:48:08,937  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:58) - 处理器移除/127.0.0.1:55943
+2018-10-20 14:48:12,540  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:102) - 日志信息:/127.0.0.1:55904---远程主机强迫关闭了一个现有的连接。
+2018-10-20 14:48:12,543 ERROR [nioEventLoopGroup-3-3] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 14:48:12,544  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:79) - 断开/127.0.0.1:55904
+2018-10-20 14:48:12,546  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:58) - 处理器移除/127.0.0.1:55904
+2018-10-20 14:49:34,906  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:50) - 处理器载入/127.0.0.1:56029
+2018-10-20 14:49:34,909  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:73) - 接入/127.0.0.1:56029
+2018-10-20 15:17:39,654  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:50) - 处理器载入/127.0.0.1:50241
+2018-10-20 15:17:39,655  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:73) - 接入/127.0.0.1:50241
+2018-10-20 15:20:17,858  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:102) - 日志信息:/127.0.0.1:50241---远程主机强迫关闭了一个现有的连接。
+2018-10-20 15:20:17,858 ERROR [nioEventLoopGroup-3-7] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 15:20:17,859  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:79) - 断开/127.0.0.1:50241
+2018-10-20 15:20:17,859  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:58) - 处理器移除/127.0.0.1:50241
+2018-10-20 15:20:25,354  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:50) - 处理器载入/127.0.0.1:50347
+2018-10-20 15:20:25,357  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:73) - 接入/127.0.0.1:50347
+2018-10-20 15:24:51,420  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:102) - 日志信息:/127.0.0.1:50347---远程主机强迫关闭了一个现有的连接。
+2018-10-20 15:24:51,421 ERROR [nioEventLoopGroup-3-8] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 15:24:51,421  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:79) - 断开/127.0.0.1:50347
+2018-10-20 15:24:51,422  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:58) - 处理器移除/127.0.0.1:50347
+2018-10-20 15:24:57,775  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:50) - 处理器载入/127.0.0.1:50475
+2018-10-20 15:24:57,779  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:73) - 接入/127.0.0.1:50475
+2018-10-20 15:26:55,785  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:50) - 处理器载入/127.0.0.1:50535
+2018-10-20 15:26:55,787  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:73) - 接入/127.0.0.1:50535
+2018-10-20 15:28:29,453  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:50) - 处理器载入/127.0.0.1:50591
+2018-10-20 15:28:29,455  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:73) - 接入/127.0.0.1:50591
+2018-10-20 15:29:35,099  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:102) - 日志信息:/127.0.0.1:50591---远程主机强迫关闭了一个现有的连接。
+2018-10-20 15:29:35,100 ERROR [nioEventLoopGroup-3-3] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 15:29:35,100  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:79) - 断开/127.0.0.1:50591
+2018-10-20 15:29:35,101  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:58) - 处理器移除/127.0.0.1:50591
+2018-10-20 15:29:43,552  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:102) - 日志信息:/127.0.0.1:50535---远程主机强迫关闭了一个现有的连接。
+2018-10-20 15:29:43,555 ERROR [nioEventLoopGroup-3-2] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 15:29:43,556  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:79) - 断开/127.0.0.1:50535
+2018-10-20 15:29:43,556  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:58) - 处理器移除/127.0.0.1:50535
+2018-10-20 15:29:47,298  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:102) - 日志信息:/127.0.0.1:56029---远程主机强迫关闭了一个现有的连接。
+2018-10-20 15:29:47,301 ERROR [nioEventLoopGroup-3-6] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 15:29:47,302  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:79) - 断开/127.0.0.1:56029
+2018-10-20 15:29:47,302  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:58) - 处理器移除/127.0.0.1:56029
+2018-10-20 15:29:50,944  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:102) - 日志信息:/127.0.0.1:50475---远程主机强迫关闭了一个现有的连接。
+2018-10-20 15:29:50,948 ERROR [nioEventLoopGroup-3-1] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 15:29:50,949  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:79) - 断开/127.0.0.1:50475
+2018-10-20 15:29:50,949  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:58) - 处理器移除/127.0.0.1:50475
+2018-10-20 15:29:56,513  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:50) - 处理器载入/127.0.0.1:50645
+2018-10-20 15:29:56,517  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:73) - 接入/127.0.0.1:50645
+2018-10-20 16:19:21,199  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:50) - 处理器载入/127.0.0.1:51837
+2018-10-20 16:19:21,201  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:73) - 接入/127.0.0.1:51837
+2018-10-20 16:20:11,924  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:50) - 处理器载入/127.0.0.1:51877
+2018-10-20 16:20:11,926  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:73) - 接入/127.0.0.1:51877
+2018-10-20 16:20:57,709  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:102) - 日志信息:/127.0.0.1:51877---远程主机强迫关闭了一个现有的连接。
+2018-10-20 16:20:57,709 ERROR [nioEventLoopGroup-3-6] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:813)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 16:20:57,710  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:79) - 断开/127.0.0.1:51877
+2018-10-20 16:20:57,710  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:58) - 处理器移除/127.0.0.1:51877
+2018-10-20 16:21:03,361  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:102) - 日志信息:/127.0.0.1:50645---远程主机强迫关闭了一个现有的连接。
+2018-10-20 16:21:03,364 ERROR [nioEventLoopGroup-3-4] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 16:21:03,364  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:79) - 断开/127.0.0.1:50645
+2018-10-20 16:21:03,365  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:58) - 处理器移除/127.0.0.1:50645
+2018-10-20 16:21:07,730  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:102) - 日志信息:/127.0.0.1:51837---远程主机强迫关闭了一个现有的连接。
+2018-10-20 16:21:07,735 ERROR [nioEventLoopGroup-3-5] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 16:21:07,735  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:79) - 断开/127.0.0.1:51837
+2018-10-20 16:21:07,736  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:58) - 处理器移除/127.0.0.1:51837
+2018-10-20 16:21:13,968  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:50) - 处理器载入/127.0.0.1:51919
+2018-10-20 16:21:13,972  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:73) - 接入/127.0.0.1:51919
+2018-10-20 16:45:46,815  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:102) - 日志信息:/127.0.0.1:51919---远程主机强迫关闭了一个现有的连接。
+2018-10-20 16:45:46,816 ERROR [nioEventLoopGroup-3-7] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 16:45:46,816  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:79) - 断开/127.0.0.1:51919
+2018-10-20 16:45:46,816  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:58) - 处理器移除/127.0.0.1:51919
+2018-10-20 16:45:54,849  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:50) - 处理器载入/127.0.0.1:52547
+2018-10-20 16:45:54,853  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:73) - 接入/127.0.0.1:52547
+2018-10-20 16:46:51,134  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:102) - 日志信息:/127.0.0.1:52547---远程主机强迫关闭了一个现有的连接。
+2018-10-20 16:46:51,135 ERROR [nioEventLoopGroup-3-8] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 16:46:51,136  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:79) - 断开/127.0.0.1:52547
+2018-10-20 16:46:51,136  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:58) - 处理器移除/127.0.0.1:52547
+2018-10-20 16:46:57,160  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:50) - 处理器载入/127.0.0.1:52585
+2018-10-20 16:46:57,163  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:73) - 接入/127.0.0.1:52585
+2018-10-20 16:54:10,915  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:102) - 日志信息:/127.0.0.1:52585---远程主机强迫关闭了一个现有的连接。
+2018-10-20 16:54:10,916 ERROR [nioEventLoopGroup-3-1] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 16:54:10,917  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:79) - 断开/127.0.0.1:52585
+2018-10-20 16:54:10,917  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:58) - 处理器移除/127.0.0.1:52585
+2018-10-20 16:54:16,668  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:50) - 处理器载入/127.0.0.1:52782
+2018-10-20 16:54:16,672  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:73) - 接入/127.0.0.1:52782
+2018-10-20 16:55:35,085  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:102) - 日志信息:/127.0.0.1:52782---远程主机强迫关闭了一个现有的连接。
+2018-10-20 16:55:35,085 ERROR [nioEventLoopGroup-3-2] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 16:55:35,085  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:79) - 断开/127.0.0.1:52782
+2018-10-20 16:55:35,086  INFO [nioEventLoopGroup-3-2] (RequestHandler.java:58) - 处理器移除/127.0.0.1:52782
+2018-10-20 16:55:41,288  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:50) - 处理器载入/127.0.0.1:52832
+2018-10-20 16:55:41,291  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:73) - 接入/127.0.0.1:52832
+2018-10-20 16:59:36,942  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:102) - 日志信息:/127.0.0.1:52832---远程主机强迫关闭了一个现有的连接。
+2018-10-20 16:59:36,943 ERROR [nioEventLoopGroup-3-3] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 16:59:36,943  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:79) - 断开/127.0.0.1:52832
+2018-10-20 16:59:36,943  INFO [nioEventLoopGroup-3-3] (RequestHandler.java:58) - 处理器移除/127.0.0.1:52832
+2018-10-20 16:59:42,050  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:50) - 处理器载入/127.0.0.1:52969
+2018-10-20 16:59:42,054  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:73) - 接入/127.0.0.1:52969
+2018-10-20 17:04:07,723  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:102) - 日志信息:/127.0.0.1:52969---远程主机强迫关闭了一个现有的连接。
+2018-10-20 17:04:07,724 ERROR [nioEventLoopGroup-3-4] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 17:04:07,724  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:79) - 断开/127.0.0.1:52969
+2018-10-20 17:04:07,725  INFO [nioEventLoopGroup-3-4] (RequestHandler.java:58) - 处理器移除/127.0.0.1:52969
+2018-10-20 17:04:13,613  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:50) - 处理器载入/127.0.0.1:53091
+2018-10-20 17:04:13,617  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:73) - 接入/127.0.0.1:53091
+2018-10-20 17:05:12,082  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:102) - 日志信息:/127.0.0.1:53091---远程主机强迫关闭了一个现有的连接。
+2018-10-20 17:05:12,083 ERROR [nioEventLoopGroup-3-5] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 17:05:12,083  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:79) - 断开/127.0.0.1:53091
+2018-10-20 17:05:12,083  INFO [nioEventLoopGroup-3-5] (RequestHandler.java:58) - 处理器移除/127.0.0.1:53091
+2018-10-20 17:05:17,728  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:50) - 处理器载入/127.0.0.1:53133
+2018-10-20 17:05:17,732  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:73) - 接入/127.0.0.1:53133
+2018-10-20 17:14:53,786  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:102) - 日志信息:/127.0.0.1:53133---远程主机强迫关闭了一个现有的连接。
+2018-10-20 17:14:53,787 ERROR [nioEventLoopGroup-3-6] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 17:14:53,787  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:79) - 断开/127.0.0.1:53133
+2018-10-20 17:14:53,787  INFO [nioEventLoopGroup-3-6] (RequestHandler.java:58) - 处理器移除/127.0.0.1:53133
+2018-10-20 17:14:59,178  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:50) - 处理器载入/127.0.0.1:53389
+2018-10-20 17:14:59,181  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:73) - 接入/127.0.0.1:53389
+2018-10-20 18:04:48,062  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54571
+2018-10-20 18:04:48,063  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:73) - 接入/127.0.0.1:54571
+2018-10-20 18:05:37,534  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54571---远程主机强迫关闭了一个现有的连接。
+2018-10-20 18:05:37,535 ERROR [nioEventLoopGroup-3-8] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 18:05:37,535  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:79) - 断开/127.0.0.1:54571
+2018-10-20 18:05:37,535  INFO [nioEventLoopGroup-3-8] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54571
+2018-10-20 18:05:43,027  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:102) - 日志信息:/127.0.0.1:53389---远程主机强迫关闭了一个现有的连接。
+2018-10-20 18:05:43,035 ERROR [nioEventLoopGroup-3-7] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 18:05:43,036  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:79) - 断开/127.0.0.1:53389
+2018-10-20 18:05:43,036  INFO [nioEventLoopGroup-3-7] (RequestHandler.java:58) - 处理器移除/127.0.0.1:53389
+2018-10-20 18:11:16,401  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 18:11:16,611  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 18:11:17,475  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 18:11:18,698  INFO [Thread-2] (ServerBoot.java:67) - 开始监听
+2018-10-20 18:12:22,605  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54780
+2018-10-20 18:12:22,607  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:73) - 接入/127.0.0.1:54780
+2018-10-20 18:12:25,046  INFO [nioEventLoopGroup-3-1] (AbstractPoolBackedDataSource.java:462) - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgepkx9y147xvf6hhr091|1d8a4fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgepkx9y147xvf6hhr091|1d8a4fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 50, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/user_remind?useUnicode=true&characterEncoding=UTF-8&useServerPrepStmts=false&rewriteBatchedStatements=true&useCompression=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 15, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-10-20 18:12:57,637  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 18:12:57,846  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 18:12:58,781  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 18:13:00,041  INFO [Thread-2] (ServerBoot.java:67) - 开始监听
+2018-10-20 18:13:03,203  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:50) - 处理器载入/127.0.0.1:54888
+2018-10-20 18:13:03,204  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:73) - 接入/127.0.0.1:54888
+2018-10-20 18:13:05,417  INFO [nioEventLoopGroup-3-1] (AbstractPoolBackedDataSource.java:462) - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgepkx9y14801jb1rz8ku5|d7b428, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgepkx9y14801jb1rz8ku5|d7b428, idleConnectionTestPeriod -> 3600, initialPoolSize -> 50, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/user_remind?useUnicode=true&characterEncoding=UTF-8&useServerPrepStmts=false&rewriteBatchedStatements=true&useCompression=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 15, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-10-20 18:30:05,424  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:102) - 日志信息:/127.0.0.1:54888---远程主机强迫关闭了一个现有的连接。
+2018-10-20 18:30:05,428 ERROR [nioEventLoopGroup-3-1] (RequestHandler.java:103) - java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-10-20 18:30:05,430  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:79) - 断开/127.0.0.1:54888
+2018-10-20 18:30:05,431  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:58) - 处理器移除/127.0.0.1:54888
+2018-10-20 18:30:35,192  INFO [Thread-2] (ServerBoot.java:41) - 开启Sever
+2018-10-20 18:30:35,405  INFO [Thread-2] (MLog.java:80) - MLog clients using log4j logging.
+2018-10-20 18:30:36,337  INFO [Thread-2] (C3P0Registry.java:204) - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2018-10-20 18:30:37,598  INFO [Thread-2] (ServerBoot.java:67) - 开始监听
+2018-10-20 18:30:40,779  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:50) - 处理器载入/127.0.0.1:55390
+2018-10-20 18:30:40,780  INFO [nioEventLoopGroup-3-1] (RequestHandler.java:73) - 接入/127.0.0.1:55390
+2018-10-20 18:30:42,330  INFO [nioEventLoopGroup-3-1] (AbstractPoolBackedDataSource.java:462) - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgepkx9y148mpjvrf6a6s|12bd4d3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgepkx9y148mpjvrf6a6s|12bd4d3, idleConnectionTestPeriod -> 3600, initialPoolSize -> 50, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/user_remind?useUnicode=true&characterEncoding=UTF-8&useServerPrepStmts=false&rewriteBatchedStatements=true&useCompression=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 15, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]

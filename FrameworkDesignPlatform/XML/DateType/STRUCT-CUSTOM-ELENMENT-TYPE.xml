@@ -1,0 +1,6 @@
+					<CUSTOM-ELEMENT-DEF>
+						<SHORT-NAME>:short-name</SHORT-NAME>
+						<DATA-TYPE>:data-type</DATA-TYPE>
+						<DIMENSION>:dimension</DIMENSION>
+						<DESCRIPTION>:description</DESCRIPTION>
+					</CUSTOM-ELEMENT-DEF>

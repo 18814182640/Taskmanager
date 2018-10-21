@@ -1,0 +1,5 @@
+					<CUSTOM-ELEMENT-DEF>
+						<SHORT-NAME>:short-name</SHORT-NAME>
+						<INIT-VALUE>:init-value</INIT-VALUE>
+						<DESCRIPTION>:description</DESCRIPTION>
+					</CUSTOM-ELEMENT-DEF>

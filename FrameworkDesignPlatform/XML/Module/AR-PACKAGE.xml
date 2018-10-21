@@ -1,0 +1,9 @@
+		<AR-PACKAGE DES=":des">
+			<SHORT-NAME>:short-name</SHORT-NAME>
+			<FILE-NAME>:file-name</FILE-NAME>
+			<CALL-CYCLE UNIT="ms">:call-cycle</CALL-CYCLE>
+			<CODE-DESCRIPTORS>:CODE-DESCRIPTORS</CODE-DESCRIPTORS>
+			<PORTS-DESCRIPTION>
+:ports-description
+			</PORTS-DESCRIPTION>
+		</AR-PACKAGE>

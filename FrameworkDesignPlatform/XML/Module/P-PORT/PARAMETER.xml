@@ -1,0 +1,5 @@
+							<PARAMETER>
+								<SHORT-NAME>:short-name</SHORT-NAME>
+								<DATA-TYPE>:data-type</DATA-TYPE>
+								<DESCRIPTION>:description</DESCRIPTION>
+							</PARAMETER>

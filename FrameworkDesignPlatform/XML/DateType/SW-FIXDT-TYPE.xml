@@ -1,0 +1,8 @@
+			<SW-FIXDT-TYPE>
+				<SHORT-NAME>:short-name</SHORT-NAME>
+				<SYMBOL>:symbol</SYMBOL>
+				<SLOPE>:slope</SLOPE>
+				<OFFSET>:offset</OFFSET>
+				<LENGTH>:length</LENGTH>
+				<DESCRIPTION>:description</DESCRIPTION>
+			</SW-FIXDT-TYPE>

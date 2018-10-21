@@ -1,0 +1,7 @@
+			<SW-ENUM-TYPE>
+				<SHORT-NAME>:short-name</SHORT-NAME>
+				<DESCRIPTION>:description</DESCRIPTION>
+				<ELEMENTS>
+:elements
+				</ELEMENTS>
+			</SW-ENUM-TYPE>

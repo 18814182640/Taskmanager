@@ -1,0 +1,12 @@
+					<SERVICE-PORT>
+						<SHORT-NAME>:short-name</SHORT-NAME>
+						<RETURN-VALUE>
+							<DATA-TYPE>:data-type</DATA-TYPE>
+							<DESCRIPTION>:description</DESCRIPTION>
+						</RETURN-VALUE>
+						<PARAMETERS>
+							<PARAMETER>
+:parameter
+							</PARAMETER>
+						</PARAMETERS>
+					</SERVICE-PORT>
